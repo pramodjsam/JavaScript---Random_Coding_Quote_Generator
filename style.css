@@ -1,0 +1,46 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	height: 100vh;
+	width: 100%;
+	display: grid;
+	text-align: center;
+	background: #878878;
+	justify-content: center;
+	align-content: center;
+}
+
+.container{
+	width: 50%;
+	height: 300px;
+	border: 5px solid #ddd;
+	background: #0c0c0c;
+	color: #fff;
+	margin: auto
+}
+
+.container h1{
+	font-size: 45px;
+	border-bottom: 1px solid #ddd;
+}
+
+.container button{
+	padding: 10px 20px;
+	margin-top: 20px;
+}
+
+.container .main p{
+	padding: 20px;
+	margin-top: 20px;
+	font-size: 18px;
+	font-weight: bolder;
+}
+
+.container .main span{
+	color: aqua;
+	font-size: 18px;
+}
